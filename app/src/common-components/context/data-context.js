@@ -3,6 +3,7 @@ import React, { createContext, useContext } from 'react';
 const DataContext = createContext({});
 
 function DataProvider(props) {
+    console.log(process.env.REACT_APP_API);
     return <DataContext.Provider value='Value' {...props} />
 }
 
