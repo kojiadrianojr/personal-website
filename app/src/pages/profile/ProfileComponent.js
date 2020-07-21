@@ -1,10 +1,10 @@
 import React from 'react';
 import Avatar from './components/Avatar';
 import styled from 'styled-components';
+import Skills from './components/Skills';
 
 const MainContainer = styled.div`
     height: 100vh;
-    background-color: orange;
 `
 
 const ProfileContainer = styled.div`
@@ -16,7 +16,10 @@ const ProfileContainer = styled.div`
 
 const SkillContainer = styled.div`
     height: 80vh;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     
 `
 
@@ -27,7 +30,7 @@ export default function Profile(){
             <Avatar />
         </ProfileContainer>
         <SkillContainer>
-            psss
+            <Skills />
         </SkillContainer>
     </MainContainer>
     )
