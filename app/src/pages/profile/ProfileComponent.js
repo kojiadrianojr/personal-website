@@ -14,11 +14,19 @@ const ProfileContainer = styled.div`
 `;
 
 const SkillContainer = styled.div`
+<<<<<<< HEAD
     min-height: 80vh;
+=======
+    height: 80vh;
+>>>>>>> 35d7dbd8a880f87c877222b1af1c1aca324619ef
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 35d7dbd8a880f87c877222b1af1c1aca324619ef
 `
 
 export default function Profile(){
